@@ -1,0 +1,34 @@
+show table
+select * from dept
+select numero_dept from dept
+select * from dept where [ numero_dept < 5,numero_emp >= 10,location like n ]
+describe emp
+select * from dept join emp
+select * from dept join emp where [ numero_dept < 5,numero_emp >= 10,location like n ]
+describe salaire
+select * from dept join emp,join salaire where [ numero_dept < 5,numero_emp >= 10,location like n ]
+select * from stagiere
+select * from module
+select id_S from stagiere-select id_M from module
+select id_S,id_M from stagiere/select id_M from module
+
+select * from deptus
+select huh from dept
+salact * from dept
+select * from dept where [ numero_deptus < 5,numero_emp >= 10,location like n ]
+
+create table test ( int chiffre )
+insert into test ( 10 )
+insert into test ( huh )
+insert into test ( 11 )
+insert into test ( 12 )
+insert into test ( 24 )
+insert into test ( 26 )
+
+update test set ( chiffre = 15 ) where [ chiffre = 10 ]
+select * from test
+delete from test where [ chiffre >= 12 ]
+select * from test
+delete from test
+select * from test
+
